@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(171, 59, 40);
+    background-image: url('Me_75x75_spaced.png') ;
+    background-repeat: repeat;
+    background-position: 0 0, 100px 100px;
+    background-size: 150px 150px;;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.index-body{
+    background-color: rgb(140, 50, 35);
+    padding: 20px;
+    margin: 0 400px 550px;
+    text-align: center;
+    border: 3px solid;
+  
+}
+
+
+.centered-header {
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
