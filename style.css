@@ -28,8 +28,9 @@ main {
     max-width: 1200px;
     text-align: center;
     border: 3px solid; 
+    z-index: 1;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 
   
 }
@@ -102,7 +103,7 @@ header{
 
 footer{
     text-align: center;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     border: 3px solid black;
@@ -122,8 +123,11 @@ footer{
 #omski_cat{
     position: absolute;
     height:auto;
-    bottom: -240px;
-    right: -75px;
+    bottom: -770%;
+    right: -7%;
+    width: 45%;
+    
+    
     
     
 }
