@@ -11,18 +11,38 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin-top: 20x;
+    padding-top: 20px;
 }
 
 .body{
     background-color: rgb(140, 50, 35);
     padding: 20px;
     margin: 0 400px 550px;
+    margin-top: 20px;
     text-align: center;
     border: 3px solid;
+
   
 }
 
+#about-body{
+    width: 100%;
+    margin-top: 400px;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+#about-body h1, h2, h3 {
+    text-align: center;
+    position: relative;
+}
+
+#about-body, second-h2{
+    padding-bottom: 100px
+}
 
 .centered-header {
     text-align: center;
@@ -31,6 +51,8 @@ main {
     background-color: rgb(140, 50, 35);
     text-align: center;
     margin: 20px;
+    z-index: 1;
+    position: relative;
 }
 
 .navbar{
@@ -63,6 +85,8 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    border: 3px solid black;
+    background-color: rgb(140, 50, 35);
 
 }
 
@@ -72,4 +96,8 @@ footer{
     margin-left: 10px;
     margin-top: -50px;
     vertical-align: middle;
+}
+
+#omski_cat{
+    position: absolute;
 }
