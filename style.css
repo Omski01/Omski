@@ -1,6 +1,6 @@
 body{
     background-color: rgb(171, 59, 40);
-    background-image: url('Me_75x75_spaced.png') ;
+   /* background-image: url('Me_75x75_spaced.png') ; */
     background-repeat: repeat;
     background-position: 0 0, 100px 100px;
     background-size: 150px 150px;;
@@ -14,7 +14,7 @@ main {
     margin: 0;
 }
 
-.index-body{
+.body{
     background-color: rgb(140, 50, 35);
     padding: 20px;
     margin: 0 400px 550px;
@@ -26,7 +26,36 @@ main {
 
 .centered-header {
     text-align: center;
-    
+    border: 3px solid;
+    padding: 10px;
+    background-color: rgb(140, 50, 35);
+    text-align: center;
+    margin: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(140, 50, 35);
+    padding: 10px;
+    margin: 20px;
+}
+.nav-link{
+    margin: 0 15px;
+    text-decoration: none;
+    Color: black;
+    font-size: 35px;
+    padding: 8px 15px;
+    border: 2px solid rgb(140, 50, 35);
+    background-color: rgb(171, 59, 40);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover{
+    background-color: rgb(140, 50, 35);
+    transform: scale(1.05);
 }
 
 footer{
@@ -35,4 +64,12 @@ footer{
     bottom: 0;
     width: 100%;
 
+}
+
+#staring_cat{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: -50px;
+    vertical-align: middle;
 }
