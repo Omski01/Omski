@@ -125,9 +125,25 @@ footer{
     height:auto;
     bottom: -770%;
     right: -7%;
-    width: 45%;
-    
-    
-    
-    
+    width: 45%;  
+}
+
+.Om_cat{
+        position: absolute;
+        height:auto;
+        bottom: -770%;
+        right: -30%;
+        width: 45%;
+}
+
+.blog-posts h3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(140, 50, 35);
+    border-radius: 10px;
+    width: 90%;
 }
