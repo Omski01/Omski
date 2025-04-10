@@ -1,50 +1,71 @@
 body{
     background-color: rgb(171, 59, 40);
    /* background-image: url('Me_75x75_spaced.png') ; */
-    background-repeat: repeat;
-    background-position: 0 0, 100px 100px;
-    background-size: 150px 150px;;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-top: 20x;
+    min-height: 100vh;
+    
     padding-top: 20px;
 }
 
 .body{
     background-color: rgb(140, 50, 35);
-    padding: 20px;
-    margin: 0 400px 550px;
-    margin-top: 20px;
+    padding: -20px 20px 0 20px;
+    width: 20%;
+    margin-bottom: 400px;
+    max-width: 1200px;
     text-align: center;
-    border: 3px solid;
+    border: 3px solid; 
+    position: relative;
+    overflow: hidden;
 
   
 }
 
 #about-body{
-    width: 100%;
-    margin-top: 400px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
     text-align: left;
-    margin-left: 300px;
-    margin-right: 300px;
+   
+    
     
 }
 
 #about-body h1, h2, h3 {
     text-align: center;
     position: relative;
+    
 }
 
-#about-body, second-h2{
-    padding-bottom: 100px
+#second-h2{
+    
+    text-align: left;
 }
 
-.centered-header {
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(140, 50, 35);
+    padding: 10px;
+    border: 3px solid black;
+    
+}
+
+/*.centered-header {
     text-align: center;
     border: 3px solid;
     padding: 10px;
@@ -53,14 +74,13 @@ main {
     margin: 20px;
     z-index: 1;
     position: relative;
-}
+}*/
 
 .navbar{
     display: flex;
     justify-content: center;
     background-color: rgb(140, 50, 35);
-    padding: 10px;
-    margin: 20px;
+    gap: 15px;
 }
 .nav-link{
     margin: 0 15px;
@@ -91,13 +111,19 @@ footer{
 }
 
 #staring_cat{
+   position: static;
+   display: inline-block;
     width: 100px;
-    height: 100px;
-    margin-left: 10px;
-    margin-top: -50px;
-    vertical-align: middle;
+    top: 20px;
+    left: 320px; 
+    height: auto;
 }
 
 #omski_cat{
     position: absolute;
+    height:auto;
+    bottom: -240px;
+    right: -75px;
+    
+    
 }
