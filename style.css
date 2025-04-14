@@ -42,6 +42,12 @@ main {
   
 }
 
+#index-body{
+    line-height: 1.8;
+    padding-bottom: 20px;
+    
+}
+
 #about-body{
     width: 90%;
     margin: 20px auto;
@@ -63,6 +69,52 @@ main {
     text-align: left;
 }
 
+#gaming-body{
+    width: 45%;
+    height: 50%;
+    
+}
+
+.gaming-boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.games-list{
+    width: 400px;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(140, 50, 35);
+    
+}
+
+.setup{
+    
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(140, 50, 35);
+    
+}
+
+.gaming-content{
+    top: -330px;
+    background-color: rgb(155, 50, 35);
+    position: relative;
+    padding: 50px;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    z-index: 0;
+    border-radius: 20px;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -73,16 +125,7 @@ header{
     
 }
 
-/*.centered-header {
-    text-align: center;
-    border: 3px solid;
-    padding: 10px;
-    background-color: rgb(140, 50, 35);
-    text-align: center;
-    margin: 20px;
-    z-index: 1;
-    position: relative;
-}*/
+
 
 .navbar{
     
@@ -224,4 +267,15 @@ footer{
     background-color: rgb(140, 50, 35);
     border-radius: 10px;
     width: 90%;
+}
+
+#gamer_cat{
+    Width: 150px;
+    height:auto;
+}
+
+#setup_cat{
+    Width: 350px;
+    height:auto;
+
 }
